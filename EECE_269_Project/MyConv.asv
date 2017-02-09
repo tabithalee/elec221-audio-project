@@ -1,0 +1,16 @@
+function f = MyConv(u,v)
+%MYCONV Summary of this function goes here
+%   Detailed explanation goes here
+a=fft(u);
+b=fft(v);
+lu=length(u);
+lv=length(v);
+u2=[u,zeros(1,lv)];
+v2=[v,zeros(1,lu)];
+d=ifft(c);
+f=real(d);
+
+
+
+end
+
